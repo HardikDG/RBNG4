@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<!-- ngIf example  -->
+
+<!--Hello<p *ngIf="test; else noServer" > Test result is true </p>
+<ng-template #noServer> 
+  <p> 
+    No server was created 
+  </p>
+</ng-template>-->
+
+<div class="container">
+  <app-header></app-header>
+  <div class="row">
+    <div class="col-md-12">
+      <app-recipes></app-recipes>
+      <app-shopping-list></app-shopping-list>
+    </div>
+  </div>
+</div>
